@@ -61,7 +61,9 @@ public class DoubleLinkedList {
 
         return sb.toString();
     }
+}
 
+class Main {
     public static void main(String[] args) {
         var list = new DoubleLinkedList();
         list.insertArray(new int[] { 1, 2, 3, 4, 5 });
